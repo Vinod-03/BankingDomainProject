@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1"  name="Suite" parallel="tests">
+  <listeners><listener class-name="com.banking.generiutilities.ListenerImplementationClass"></listener></listeners>
+
+  <test  name="Test-runner-1"  >
+    <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="openacctostaffapprove_package.OpenAccountToPendingAccountTest"/>
+      <class name="approvetocreditcus_package.FromApproveaccountToCreditCustomerTest"/>
+      <class name="applydebittoresister_package.ApplyDebitToRegisterTest"/>
+      <class name="logintoaddbenificiary_package.LoginToAddBenficiaryTest"/>
+      <class name="selectbenificaryfundtransfer_package.SelectBenficiaryFundTransferTest"/>
+    </classes>
+    
+  </test>
+   
+   
+</suite> <!-- Suite -->
