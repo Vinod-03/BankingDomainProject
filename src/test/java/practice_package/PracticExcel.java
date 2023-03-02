@@ -24,7 +24,7 @@ public class PracticExcel {
 		         int rdnum = sh.getLastRowNum();
 		         int ccell=sh.getRow(rdnum).getLastCellNum();
 		          
-		         int k=0;
+		       
 		         for(int i=0;i<rdnum;i++)
 		         {
 		        	 //System.out.println("vgv");
