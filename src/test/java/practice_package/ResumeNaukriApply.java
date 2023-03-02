@@ -27,7 +27,7 @@ public class ResumeNaukriApply {
    	   driver.findElement(By.xpath("//button[.='Login']")).click();
    	   
    	   driver.findElement(By.xpath("//div[@class=\"btn btn-block btn-large white-text\"]")).click();
-   	   
+   	  //  nithish anna genius  
    	File f=new File("./Automation-QA-Resume-Vinod.pdf");
     String absolute = f.getAbsolutePath();
     System.out.println(absolute); 
